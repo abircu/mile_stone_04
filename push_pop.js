@@ -1,0 +1,10 @@
+var number = [10, 20, 25, 365, 265, 56];
+// number.push(11);
+var friends = ["balam", "kalam", "salam"];
+friends.push("nolam");
+number.pop();
+var element = number.pop();
+number.unshift(50);
+console.log(friends);
+console.log(element);
+console.log(number);

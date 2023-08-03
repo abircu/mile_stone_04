@@ -13,5 +13,5 @@ function inchToFeet(inches) {
   return feet.toFixed(2);
 }
 const dadaInches = 64;
-const dadaFeet = inchToFeet(dadaInches);
-console.log(dadaFeet);
+const dadaheight = inchToFeet(dadaInches);
+console.log(dadaheight);

@@ -12,6 +12,7 @@ function woodCalculator(chairQuintity, tableQuintity, bedQuintity) {
 const chair = 10;
 const table = 15;
 const bed = 20;
+// calculation wood in inch to cft
 
 const totalWood = woodCalculator(chair, table, bed);
 console.log(totalWood, "cft.");

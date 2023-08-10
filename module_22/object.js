@@ -4,6 +4,9 @@ const student = {
   adress: "khilkhet nikunja 02",
   isSingle: true,
   friends: ["opu", "topu", "dipu", "shifu"],
+  act: function () {
+    console.log("hello bangladesh");
+  },
   movie: [{ dalywod: "tukai", holywod: "spiderman", bolywod: "terenam" }],
   car: {
     brand: "toyta",
@@ -16,4 +19,4 @@ const student = {
     },
   },
 };
-console.log(student.car.manufacturer);
+student.act();

@@ -5,6 +5,8 @@
 3.perametter that is not passed it will give undefine
 4.if return has nothing on the right side will return undefined
 5.property that doesnt exists on an object will give you undefined
+6.for remove element should not use directly delete use splice.
+7.
 */
 let first;
 // console.log(first);
